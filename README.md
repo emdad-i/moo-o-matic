@@ -1,5 +1,5 @@
 # moo-o-matic
-Moo on demand from hitting return key to enhance team moral when completing a ticket
+Moo on demand by pressing the return key to enhance team moral when achieving accomplishment
 
 ## Usage
 Requires pygame library to play sound
