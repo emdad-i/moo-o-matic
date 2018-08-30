@@ -10,6 +10,7 @@ def filePicker():
     return r
 
 print('---Moo-O-Matic---')
+print('Improving team morale')
 print('---Started---')
 
 while True:
