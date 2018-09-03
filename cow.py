@@ -10,6 +10,7 @@ def filePicker():
     return r
 
 print('---Moo-O-Matic---')
+print('Improving team morale')
 print('---Started---')
 
 while True:
@@ -18,8 +19,9 @@ while True:
         mixer.init()
     	mixer.music.load(filePicker())
     	mixer.music.play()
-    	time.sleep(2.5)
-    	mixer.music.load('sounds/applause.mp3')
-    	mixer.music.play()
-    	print('Booyaa! Ticket Done')
-    	time.sleep(2)
+    	while True:
+            if 0 == mixer.music.get_busy():
+                mixer.music.load('sounds/applause.mp3')
+                mixer.music.play()
+                print('Booyaa! Ticket Done')
+                break
